@@ -7,11 +7,11 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 class Configuration implements ConfigurationInterface
 {
-	public function getConfigTreeBuilder()
-	{
-		$treeBuilder = new TreeBuilder();
-		$rootNode = $treeBuilder->root('oodle_krumo');
+    public function getConfigTreeBuilder()
+    {
+        $treeBuilder = new TreeBuilder();
+        $rootNode = $treeBuilder->root('oodle_krumo');
 
-		return $treeBuilder;
-	}
+        return $treeBuilder;
+    }
 }

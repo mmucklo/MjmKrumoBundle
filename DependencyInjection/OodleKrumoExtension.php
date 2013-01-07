@@ -9,17 +9,17 @@ use Symfony\Component\DependencyInjection\Loader;
 use krumo;
 
 class OodleKrumoExtension
-	extends Extension
+    extends Extension
 {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function load(array $configs, ContainerBuilder $container)
-	{
-		$configuration = new Configuration();
-		$config = $this->processConfiguration($configuration, $configs);
+    /**
+     * {@inheritDoc}
+     */
+    public function load(array $configs, ContainerBuilder $container)
+    {
+        $configuration = new Configuration();
+        $config = $this->processConfiguration($configuration, $configs);
 
-		$loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
-		$loader->load('services.xml');
-	}
+        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
+        $loader->load('services.xml');
+    }
 }
