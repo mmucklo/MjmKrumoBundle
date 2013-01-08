@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php
+        "php": ">=5.3.3",
         "symfony/http-foundation": ">=2.1,<2.3-dev",
         "symfony/routing": ">=2.1,<2.3-dev",
         "symfony/config": ">=2.1,<2.3-dev",
