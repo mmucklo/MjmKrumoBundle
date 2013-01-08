@@ -5,6 +5,11 @@ namespace Oodle\KrumoBundle\Twig\Extension;
 class TwigExtension
     extends \Twig_Extension
 {
+    public function setKrumoConfig($config)
+    {
+        require_once(__DIR__ . '/../../../../../krumo/class.krumo.php');
+        \krumo::setConfig($config);
+    }
 
     public function getName()
     {
