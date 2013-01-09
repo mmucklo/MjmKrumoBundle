@@ -5,7 +5,7 @@ Hooks for using krumo within Symfony
 
 Krumo is basically a cascading visual var dump tool.  If you don't know what it is, you can peruse some documentation here: http://krumo.sourceforge.net/
 
-### (NOTE) Built on this fork of krumo
+##### NOTE - Built on this fork of krumo:
 https://github.com/oodle/krumo
 
 Installation:
@@ -55,18 +55,18 @@ oodle_krumo:
         show_call_info: true
 ```
 
-### skin
-#### selected
+#### skin
+##### selected
 Skin to use for krumo
 
-### css
-#### url
+#### css
+##### url
 URL for accessing the krumo assets.  Don't modify unless you know what you are doing
 
-### display
-#### show_version
+#### display
+##### show_version
 Whether or not to show the krumo version (and link back) at the bottom
-#### show_call_info
+##### show_call_info
 Whether or not to show the line number / call info at the bottom
 
 Usage:
