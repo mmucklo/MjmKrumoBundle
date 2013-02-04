@@ -8,6 +8,19 @@ Krumo is basically a cascading visual var dump tool.  If you don't know what it 
 ##### NOTE - Built on this fork of krumo:
 https://github.com/oodle/krumo
 
+Usage:
+------
+
+### php
+```php
+krumo($something); // Dumps krumo output of that variable from that point
+```
+
+### twig
+```twig
+{{ someVar | krumo }} {# Dumps krumo output of someVar #}
+```
+
 Installation:
 -------------
 Add these two lines to your composer.json "require" section:
@@ -67,16 +80,3 @@ oodle_krumo:
 		* (Whether or not to show the krumo version and link at the bottom)
 	* show_call_info
 		* (Whether or not to show the line number / call info at the bottom)
-
-Usage:
-------
-
-### php
-```php
-krumo($something); // Dumps krumo output of that variable from that point
-```
-
-### twig
-```twig
-{{ someVar | krumo }} {# Dumps krumo output of someVar #}
-```
