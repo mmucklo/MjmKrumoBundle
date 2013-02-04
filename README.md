@@ -16,7 +16,6 @@ Add these two lines to your composer.json "require" section:
 ```json
     "require": {
        ...
-       "oodle/krumo": "*",
        "oodle/krumo-bundle": "*"
 ```
 
