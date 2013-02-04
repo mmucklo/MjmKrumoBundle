@@ -54,19 +54,19 @@ oodle_krumo:
         show_call_info: true
 ```
 
-#### skin
-##### selected
-Skin to use for krumo
+#### Parameters
 
-#### css
-##### url
-URL for accessing the krumo assets.  Don't modify unless you know what you are doing
-
-#### display
-##### show_version
-Whether or not to show the krumo version (and link back) at the bottom
-##### show_call_info
-Whether or not to show the line number / call info at the bottom
+* skin
+	* selected
+		* (Skin to use for krumo)
+* css
+	* url
+		* (URL for accessing the krumo assets.  Don't modify unless you know what you are doing)
+* display
+	* show_version
+		* (Whether or not to show the krumo version and link at the bottom)
+	* show_call_info
+		* (Whether or not to show the line number / call info at the bottom)
 
 Usage:
 ------
