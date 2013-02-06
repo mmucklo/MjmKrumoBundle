@@ -65,6 +65,7 @@ oodle_krumo:
     display:
         show_version: true
         show_call_info: true
+        cascade: [5,10]
 ```
 
 #### Parameters
@@ -80,3 +81,7 @@ oodle_krumo:
 		* (Whether or not to show the krumo version and link at the bottom)
 	* show_call_info
 		* (Whether or not to show the line number / call info at the bottom)
+	* cascade
+		* Array of auto-expand options per level (don't use to keep things collapsed by default)
+			* Each entry in the array represents a recursion level, at which if there are that number of nodes or less, then it will default to being expanded
+		

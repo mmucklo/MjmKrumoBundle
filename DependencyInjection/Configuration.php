@@ -31,6 +31,7 @@ class Configuration implements ConfigurationInterface
                     ->children()
                         ->scalarNode('show_version')->defaultValue(true)->end()
                         ->scalarNode('show_call_info')->defaultValue(true)->end()
+                        ->arrayNode('cascade')->prototype('scalar')->end()
                     ->end()
                 ->end()
             ->end();
