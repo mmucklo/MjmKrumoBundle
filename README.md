@@ -23,7 +23,7 @@ krumo($something); // Dumps krumo output of that variable from that point
 
 Installation:
 -------------
-Add these two lines to your composer.json "require" section:
+Add this line to your composer.json "require" section:
 
 ### composer.json
 ```json
