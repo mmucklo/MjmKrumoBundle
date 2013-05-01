@@ -19,6 +19,8 @@ krumo($something); // Dumps krumo output of that variable from that point
 ### twig
 ```twig
 {{ someVar | krumo }} {# Dumps krumo output of someVar #}
+{{ krumo(someVar) }} { # Dumps krumo output of someVar #}
+{{ krumo(someVar, [2, 1, 2]) }} {# Dumps krumo output of someVar with collapse settings of [2, 1, 2]
 ```
 
 Installation:
