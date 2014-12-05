@@ -12,10 +12,6 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/http-foundation": ">=2.1,<2.6-dev",
-        "symfony/routing": ">=2.1,<2.6-dev",
-        "symfony/config": ">=2.1,<2.6-dev",
-        "twig/twig": ">=1.10,<2.0-dev",
         "oodle/krumo": ">=0.2.2"
     },
     "autoload": {
