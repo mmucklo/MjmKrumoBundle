@@ -1,5 +1,5 @@
 {
-    "name": "oodle/krumo-bundle",
+    "name": "mmucklo/krumo-bundle",
     "type": "symfony-bundle",
     "description": "Hooks for using KRUMO from within Symfony -- KRUMO - version 2.0 of print_r(); and var_dump();",
     "license": "LGPL",
@@ -7,12 +7,12 @@
     "authors": [
         {
             "name": "Matthew J. Mucklo",
-            "email": "mmucklo@corp.oodle.com"
+            "email": "mmucklo@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "oodle/krumo": ">=0.2.2"
+        "oodle/krumo": ">=0.5.2"
     },
     "autoload": {
         "psr-0": {
