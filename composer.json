@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Hooks for using KRUMO from within Symfony -- KRUMO - version 2.0 of print_r(); and var_dump();",
     "license": "LGPL",
-    "keywords": ["debug", "debugging", "pretty", "print", "print_r", "var_dump", "symfony2", "KrumoBundle", "krumo"],
+    "keywords": ["debug", "debugging", "pretty", "print", "print_r", "var_dump", "symfony2", "KrumoBundle", "krumo", "symfony3"],
     "authors": [
         {
             "name": "Matthew J. Mucklo",
@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "oodle/krumo": ">=0.5.2"
+        "mmucklo/krumo": ">=0.5.2"
     },
     "autoload": {
         "psr-0": {
