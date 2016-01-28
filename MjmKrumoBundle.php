@@ -1,10 +1,10 @@
 <?php
 
-namespace Oodle\KrumoBundle;
+namespace Mjm\KrumoBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class OodleKrumoBundle
+class MjmKrumoBundle
     extends Bundle
 {
     public function __construct()

@@ -16,9 +16,9 @@
     },
     "autoload": {
         "psr-0": {
-            "Oodle\\KrumoBundle": ""
+            "Mjm\\KrumoBundle": ""
         }
     },
-    "target-dir": "Oodle/KrumoBundle"
+    "target-dir": "Mjm/KrumoBundle"
 }
 

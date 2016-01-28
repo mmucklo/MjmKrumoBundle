@@ -6,7 +6,7 @@ Hooks for using krumo within Symfony2 or Symfony3
 Krumo is basically a cascading visual var dump tool.  If you don't know what it is, you can peruse some documentation here: http://krumo.sourceforge.net/
 
 ##### NOTE - Built on this fork of krumo:
-https://github.com/oodle/krumo
+https://github.com/mmucklo/krumo
 
 Usage:
 ------
@@ -31,7 +31,7 @@ Add this line to your composer.json "require" section:
 ```json
     "require": {
        ...
-       "oodle/krumo-bundle": "*"
+       "mmucklo/krumo-bundle": "*"
 ```
 
 Add this to your AppKernel.php (in the registerBundles() section):
@@ -43,14 +43,14 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         // ...
-        new Oodle\KrumoBundle\OodleKrumoBundle()
+        new Mjm\KrumoBundle\MjmKrumoBundle()
     }
 ```
 
 ### app/config/routing.yml
 ```yaml
 KrumoBundle:
-    resource: "@OodleKrumoBundle/Resources/config/routing/routing.yml"
+    resource: "@MjmKrumoBundle/Resources/config/routing/routing.yml"
     prefix:   /
 ```	
 
@@ -59,7 +59,7 @@ Configuration:
 
 ### config.yml
 ```yaml
-oodle_krumo:
+mjm_krumo:
     skin:
         selected: schabalon.com
     css:

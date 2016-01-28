@@ -1,6 +1,6 @@
 <?php
 
-namespace Oodle\KrumoBundle\DependencyInjection;
+namespace Mjm\KrumoBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('oodle_krumo')
+        $rootNode = $treeBuilder->root('mjm_krumo')
             ->children()
                 ->arrayNode('skin')
                     ->addDefaultsIfNotSet()

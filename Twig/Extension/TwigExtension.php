@@ -1,6 +1,6 @@
 <?php
 
-namespace Oodle\KrumoBundle\Twig\Extension;
+namespace Mjm\KrumoBundle\Twig\Extension;
 
 class TwigExtension
     extends \Twig_Extension
@@ -13,7 +13,7 @@ class TwigExtension
 
     public function getName()
     {
-        return 'oodle_krumo_twig_extension';
+        return 'mjm_krumo_twig_extension';
     }
 
     public function krumo($obj, $cascade = array())

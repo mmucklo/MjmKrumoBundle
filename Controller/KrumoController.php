@@ -1,6 +1,6 @@
 <?php
 
-namespace Oodle\KrumoBundle\Controller;
+namespace Mjm\KrumoBundle\Controller;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\HttpFoundation\Response;
