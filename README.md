@@ -1,7 +1,7 @@
 KrumoBundle
 ===========
 
-Hooks for using krumo within Symfony2
+Hooks for using krumo within Symfony2 or Symfony3
 
 Krumo is basically a cascading visual var dump tool.  If you don't know what it is, you can peruse some documentation here: http://krumo.sourceforge.net/
 
