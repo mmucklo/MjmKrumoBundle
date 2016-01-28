@@ -87,3 +87,8 @@ oodle_krumo:
 		* Array of auto-expand options per level (don't use to keep things collapsed by default)
 			* Each entry in the array represents a recursion level, at which if there are that number of nodes or less, then it will default to being expanded
 		
+License
+-------
+MIT
+
+See [Resources/meta/LICENSE](Resources/meta/LICENSE).
