@@ -33,11 +33,11 @@ class TwigExtension
 
     public function getFilters()
     {
-        return array('krumo' => new \Twig_Filter_Method($this, 'krumo', array('is_safe' => array('html'))));
+        return array('krumo' => new \Twig_SimpleFilter('krumo', array($this, 'krumo'), array('is_safe' => array('html'))));
     }
 
     public function getFunctions()
     {
-        return array('krumo' => new \Twig_Function_Method($this, 'krumo', array('is_safe' => array('html'))));
+        return array('krumo' => new \Twig_SimpleFunction('krumo', array($this, 'krumo'), array('is_safe' => array('html'))));
     }
 }
